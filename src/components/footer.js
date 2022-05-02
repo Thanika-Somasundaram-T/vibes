@@ -25,7 +25,7 @@ const Footer = () => {
 			<div className="footer-center">
 				<ShuffleIcon className="footer-center-icon"/>
 				<SkipPreviousIcon className="footer-center-icon"/>
-				<PlayCircleIcon fontSize="large" className="footer-center-icon"/>
+				<PlayCircleIcon fontSize="large" className="footer-center-icon-play"/>
 				<SkipNextIcon className="footer-center-icon"/>
 				<RepeatIcon className="footer-center-icon"/>
 			</div>
