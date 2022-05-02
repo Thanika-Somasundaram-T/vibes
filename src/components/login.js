@@ -1,5 +1,6 @@
 import React from 'react';
 import Spotify from './spotify';
+import './login.css';
 
 const { loginUrl } = Spotify;
 
