@@ -1,9 +1,64 @@
 .footer {
 	position: fixed;
+	display: flex;
+	justify-content: space-between;
 	bottom: 0;
 	height: 65px;
-	width: 100%;
+	width: 97%;
 	background-color: #282828;
 	padding: 20px;
+	color: white;
+}
+
+.footer-left {
+	flex: 0.25;
+	display: flex;
+	align-items: center;
+	width: 300px;
+}
+
+.footer-song-info > h4 {
+	margin-bottom: 5px;
+}
+.footer-song-info > p {
+	font-size: 12px;
+}
+
+.footer-left > img {
+	height: 60px;
+	width: 60px;
+	object-fit: contain;
+	margin-right: 20px;
+}
+
+.footer-center {
+	flex: 0.5;
+	padding: 0 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 300px;
+	color: white;
+}
+
+.footer-center-icon:hover {
+	transition: transform 0.2s ease-in-out;
+	transform: scale(1.2) !important;
+}
+
+.footer-center-icon-play:hover {
+	transition: transform 0.2s ease-in-out;
+	transform: scale(2) !important;
+}
+
+.footer-right {
+	flex: 0.25;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 300px;
+}
+
+.footer-right * .MuiSlider-root {
 	color: white;
 }
